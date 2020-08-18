@@ -26,10 +26,7 @@
 
     <!-- plugin scripts -->
 
-    <link
-      href="https://fonts.googleapis.com/css?family=Barlow:300,400,500,600,700,800,900%7CLibre+Baskerville:400,700&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="assets/css/animate.min.css" />
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
@@ -45,103 +42,111 @@
     <!-- template styles -->
     <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="stylesheet" href="assets/css/responsive.css" />
+    <style>
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Roboto Condensed';
+            font-style: italic;
+        }
+        p {
+            font-family: 'Roboto Condensed';
+        }
+        .mission-vision__image {
+            object-fit: cover;
+            object-position: 60%;
+            height: 500px;
+            width: 540px;
+        }
+        .block-title__tag-line {
+            color:  #1f5ad2;
+        }
+        .active > .accrodion-title {
+            background-color: #1f5ad2 !important;
+        }
+        .thm-btn {
+            background-color: #1f5ad2;
+        }
+        .campaing-one__single::after {
+            background-color: #1f5ad2;
+        }
+        .navbar-brand {
+            width: 260px;
+        }
+        .main-navigation a {
+            font-family: 'Roboto Condensed';
+        }
+        .static-banner-one {
+            background-image: url("./assets/images/background/banner-bg-1-1.jpg");
+            background-size: fill;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+    </style>
   </head>
 
   <body>
-    <div class="preloader">
+    <!-- <div class="preloader">
       <img src="assets/images/loader.png" class="preloader__image" alt="" />
-    </div>
+    </div> -->
     <!-- /.preloader -->
     <div class="page-wrapper">
-      <div class="topbar-one">
-        <div class="container">
-          <div class="inner-container">
-            <div class="topbar-one__left">
-              <a href="mailto:needhelp@potisen.com"
-                >megan@meganforcommonwealth.com</a
-              >
-              <a href="tel:666-888-0000">666 888 0000</a>
+        <div class="topbar-one">
+            <div class="container">
+                <div class="inner-container">
+                    <div class="topbar-one__left">
+                        <a href="mailto:needhelp@potisen.com">megan@meganforcommonwealth.com</a>
+                        <!-- <a href="tel:666-888-0000">666 888 0000</a> -->
+                    </div>
+                    <div class="topbar-one__right">
+                        <a href="https://secure.actblue.com/donate/meganforcommonwealth"><i class="fa fa-money"></i> Donate Now</a>
+                        <a href="volunteer.html"><i class="fa fa-user-o"></i>Join Us</a>
+                    </div>
+                </div>
             </div>
-            <!-- /.topbar-one__left -->
-            <div class="topbar-one__right">
-              <a href="https://secure.actblue.com/donate/meganforcommonwealth"
-                ><i class="fa fa-money"></i> Donate Now</a
-              >
-              <a href="volunteer.html"><i class="fa fa-user-o"></i>Join Us</a>
-            </div>
-            <!-- /.topbar-one__right -->
-          </div>
-          <!-- /.inner-container -->
         </div>
-        <!-- /.container -->
-      </div>
-      <!-- /.topbar-one -->
-      <header class="site-header site-header__header-one">
-        <nav
-          class="navbar navbar-expand-lg navbar-light header-navigation stricky"
-        >
-          <div class="container clearfix">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="logo-box clearfix">
-              <a class="navbar-brand" href="index.html">
-                <img
-                  src="assets/images/logo-dark.png"
-                  class="main-logo"
-                  width="177"
-                  alt="Awesome Image"
-                />
-              </a>
-              <button class="menu-toggler" data-target=".main-navigation">
-                <span class="fa fa-bars"></span>
-              </button>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="main-navigation">
-              <ul class="navigation-box">
-                <li class="current">
-                  <a href="index.html">Home</a>
-                </li>
-                <li>
-                  <a href="about.html">About</a>
-                </li>
-                <li>
-                  <a href="donation.html">Contribute</a>
-                  <ul class="sub-menu">
-                    <li><a href="donation.html">Donations</a></li>
-                    <li><a href="volunteer.html">Volunteer</a></li>
-                  </ul>
-                </li>
-                <li>
-                  <a href="#news">News</a>
-                </li>
-                <li>
-                  <a href="contact.html">Contact</a>
-                </li>
-              </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-            <div class="right-side-box">
-              <div class="header-social">
-                <a
-                  href="https://twitter.com/meganzwisohn"
-                  class="fa fa-twitter"
-                ></a>
-                <a
-                  href="https://www.facebook.com/Megan-Zwisohn-for-Commonwealths-Attorney-111588333977747"
-                  class="fa fa-facebook-square"
-                ></a>
-                <a
-                  href="https://www.instagram.com/megancz"
-                  class="fa fa-instagram"
-                ></a>
-              </div>
-              <!-- /.header-social -->
-            </div>
-            <!-- /.right-side-box -->
-          </div>
-          <!-- /.container -->
-        </nav>
-      </header>
+        <header class="site-header site-header__header-one">
+            <nav class="navbar navbar-expand-lg navbar-light header-navigation stricky">
+                <div class="container clearfix">
+                    <div class="logo-box clearfix">
+                        <a class="navbar-brand" href="index.html">
+                            <img src="./assets/images/Untitled.svg" class="main-logo" width="260" alt="Awesome Image" />
+                        </a>
+                        <button class="menu-toggler" data-target=".main-navigation">
+                            <span class="fa fa-bars"></span>
+                        </button>
+                    </div>
+                    <div class="main-navigation">
+                        <ul class="navigation-box">
+                            <li class="current">
+                                <a href="index.html">Home</a>
+                            </li>
+                            <li>
+                                <a href="about.html">About</a>
+                            </li>
+                            <li>
+                                <a href="https://secure.actblue.com/donate/meganforcommonwealth">Donate</a>
+                                <!-- <ul class="sub-menu">
+                                    <li><a href="donation.html">Donations</a></li>
+                                    <li><a href="volunteer.html">Volunteer</a></li>
+                                </ul> -->
+                            </li>
+                            <li>
+                                <a href="#news">News</a>
+                            </li>
+                            <li>
+                                <a href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="right-side-box">
+                        <div class="header-social">
+                            <a href="https://twitter.com/meganzwisohn" class="fa fa-twitter"></a>
+                            <a href="https://www.facebook.com/Megan-Zwisohn-for-Commonwealths-Attorney-111588333977747" class="fa fa-facebook-square"></a>
+                            <a href="https://www.instagram.com/megancz" class="fa fa-instagram"></a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
       <!-- /.site-header -->
       <section class="inner-banner">
         <div class="container">
